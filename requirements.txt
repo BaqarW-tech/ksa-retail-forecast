@@ -1,5 +1,7 @@
+streamlit>=1.35.0
 prophet==1.3.0
 holidays>=0.45
+hijri-converter>=2.3.0
 xgboost>=2.0.0
 scikit-learn>=1.3.0
 pandas>=2.0.0
@@ -7,4 +9,3 @@ numpy>=2.0.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
 statsmodels>=0.14.0
-hijri-converter>=2.3.0
