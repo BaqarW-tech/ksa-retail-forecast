@@ -352,7 +352,6 @@ def run_xgboost_and_ensemble(
         row.loc[date, "dayofweek"]  = date.dayofweek
         row.loc[date, "month"]      = date.month
         row.loc[date, "quarter"]    = date.quarter
-        row.loc[date, "year"]       = date.year
         row.loc[date, "dayofyear"]  = date.dayofyear
         row.loc[date, "weekofyear"] = date.isocalendar().week
         row.loc[date, "month_sin"]  = np.sin(2 * np.pi * date.month / 12)
